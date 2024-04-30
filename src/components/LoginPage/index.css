@@ -1,0 +1,53 @@
+.main-login-page {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0;
+}
+@media screen and (max-width: 767px) {
+  .login-box-container {
+    width: 85%;
+  }
+}
+.label {
+  width: 100%;
+
+  font-size: 18px;
+  color: #7e858e;
+}
+.userInput {
+  height: 35px;
+  width: 100%;
+  border: 1px solid #7e858e;
+  margin-top: 5px;
+}
+.button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 8px;
+  border-width: 0px;
+  margin-top: 15px;
+}
+.nxt-logo {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.text-color {
+  color: black;
+  margin-top: 20px;
+}
+.each-input {
+  margin-top: 20px;
+}

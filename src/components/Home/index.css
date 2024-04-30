@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.navbar-fixed {
+  position: fixed;
+}
+.failure-Conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-iage {
+  width: 75%;
+}
+
+.retry {
+  background-color: #4f46e5;
+  color: #ffffff;
+  width: 75px;
+  border-width: 0px;
+  height: 40px;
+  border-radius: 7px;
+}
+@media screen and (max-width: 767px) {
+  .required-style {
+    display: flex;
+    flex-direction: column;
+  }
+}
